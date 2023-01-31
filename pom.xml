@@ -5,11 +5,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>edu</groupId>
-  <artifactId>STOCKX-ASCII</artifactId>
+  <artifactId>stockx_ascii</artifactId>
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
 
-  <name>STOCKX-ASCII</name>
+  <name>stockx_ascii</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -73,12 +73,12 @@
         <plugin>
           <artifactId>maven-jar-plugin</artifactId>
           <version>3.0.2</version>
-          <!-- Seccion configuration para generar un jar ejecutable de la app -->
+            <!-- Seccion configuration para generar un jar ejecutable de la app -->
           <configuration>
             <archive>
               <manifest>
                 <addClasspath>true</addClasspath>
-                <mainClass>edu.elsmancs.gildedrose.App</mainClass>
+                <mainClass>edu.craptocraft.stockx_ascii.Stockx</mainClass>
               </manifest>
               <manifestEntries>
                 <url>${project.url}</url>
@@ -86,7 +86,6 @@
             </archive>
           </configuration>
         </plugin>
-
       </plugins>
     </pluginManagement>
   </build>

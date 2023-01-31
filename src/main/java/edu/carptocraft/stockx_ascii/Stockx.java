@@ -1,3 +1,4 @@
+package edu.carptocraft.stockx_ascii;
 
 /**
  * StockX nació en Detroit, y allí siguen haciendo

@@ -1,4 +1,4 @@
-package edu/CrapToCraft;
+package edu.carptocraft.stockx_ascii;
 
 import static org.junit.Assert.assertTrue;
 
@@ -7,8 +7,7 @@ import org.junit.Test;
 /**
  * Unit test for simple App.
  */
-public class AppTest 
-{
+public class StockxTest {
     /**
      * Rigorous Test :-)
      */
