@@ -1,5 +1,7 @@
 # Stockx ASCII
 
+![StockX](stockx.png)
+
 Practice to prepare for the JAVA exam in February, this practice proposed by our teacher of JAVA Application Programming consists of creating in JAVA the StockX website.
 
 
