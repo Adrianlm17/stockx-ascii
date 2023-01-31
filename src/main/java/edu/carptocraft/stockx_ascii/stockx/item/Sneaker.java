@@ -1,6 +1,6 @@
 package edu.carptocraft.stockx_ascii.stockx.item;
 
-public class Sneaker {
+public class Sneaker implements Item {
 
     private final String sneaker;
     private final String name;
@@ -13,7 +13,25 @@ public class Sneaker {
 
     @Override
     public String  toString(){
-        return "\t" + this.name + "\n\t\t" + this.sneaker;
+        return this.name + "\n\t\t" + this.sneaker;
+    }
+
+    @Override
+    public String getAsk() {
+        // TODO Auto-generated method stub
+        return null;
+    }
+
+    @Override
+    public String getBid() {
+        // TODO Auto-generated method stub
+        return null;
+    }
+
+    @Override
+    public String getSale() {
+        // TODO Auto-generated method stub
+        return null;
     }
     
 }

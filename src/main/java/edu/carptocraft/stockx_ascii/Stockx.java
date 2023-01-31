@@ -1,5 +1,8 @@
 package edu.carptocraft.stockx_ascii;
 
+import edu.carptocraft.stockx_ascii.stockx.item.Item;
+import edu.carptocraft.stockx_ascii.stockx.item.Sneaker;
+
 /**
  * StockX nació en Detroit, y allí siguen haciendo
  * las cosas a la manera tradicional, 
