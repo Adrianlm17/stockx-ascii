@@ -1,16 +1,16 @@
 package edu.craptocraft.stockx.item;
 
-import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertEquals;
 
-import org.junit.Before;
+import org.junit.Test;
 
 public class SneakerTest {
-    
-    Item sneaker = null;
 
-    @Before
-    public void checkNewItem(){
-        Item sneaker = new Sneaker("555088-105", "Jordan 1 Retro High Dark Mocha");
-        assertNotNull(sneaker);
+    @Test
+    public void checkAddOfferBid(){
+        Sneaker sneaker = new Sneaker("555088-105", "Jordan 1 Retro High Dark Mocha");
+        Bid bid = new Bid("24", 344);
+        sneaker.add(bid);
+        assertEquals(1, sneaker.offers().size());
     }
 }

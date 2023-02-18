@@ -1,5 +1,7 @@
 package edu.craptocraft.stockx.item;
 
+import java.util.List;
+
 public interface Item {
 
     int getAsk();
@@ -8,4 +10,6 @@ public interface Item {
 
     int getSale();
 
+    void add(Offer bid);
+    List<Offer> offers();
 }
