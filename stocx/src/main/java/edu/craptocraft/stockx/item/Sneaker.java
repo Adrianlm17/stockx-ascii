@@ -1,5 +1,8 @@
 package edu.craptocraft.stockx.item;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Sneaker implements Item {
 
     private String style;
@@ -7,6 +10,7 @@ public class Sneaker implements Item {
     private int sale;
     private int ask;
     private int bid;
+    private List<Offer> offers = new ArrayList<Offer>();
 
 
     public Sneaker(String style, String name) {
@@ -32,6 +36,16 @@ public class Sneaker implements Item {
     @Override
     public int getBid() {
         return bid;
+    }
+
+    @Override
+    public void add(Offer bid) {
+        this.offers.add(bid);
+    }
+
+    @Override
+    public List<Offer> offers() {
+        return this.offers;
     }
 
 }
