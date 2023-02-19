@@ -1,3 +1,24 @@
+package edu.craptocraft.stockx;
+
+import java.util.List;
+
+import edu.craptocraft.stockx.criteria.AndCriteria;
+import edu.craptocraft.stockx.criteria.Asks;
+import edu.craptocraft.stockx.criteria.Bids;
+import edu.craptocraft.stockx.criteria.Criteria;
+import edu.craptocraft.stockx.criteria.LastSale;
+import edu.craptocraft.stockx.criteria.Max;
+import edu.craptocraft.stockx.criteria.MaxBid;
+import edu.craptocraft.stockx.criteria.Min;
+import edu.craptocraft.stockx.criteria.MinAsk;
+import edu.craptocraft.stockx.criteria.Sales;
+import edu.craptocraft.stockx.criteria.Size;
+import edu.craptocraft.stockx.item.Ask;
+import edu.craptocraft.stockx.item.Bid;
+import edu.craptocraft.stockx.item.Item;
+import edu.craptocraft.stockx.item.Offer;
+import edu.craptocraft.stockx.item.Sale;
+import edu.craptocraft.stockx.item.Sneaker;
 
 /**
  * StockX nació en Detroit, y allí siguen haciendo
