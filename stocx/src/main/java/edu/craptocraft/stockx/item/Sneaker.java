@@ -35,7 +35,7 @@ public class Sneaker implements Item {
 
     @Override
     public int getBid() {
-        return bid;
+        return this.bid;
     }
 
     @Override
@@ -46,6 +46,9 @@ public class Sneaker implements Item {
     @Override
     public List<Offer> offers() {
         return this.offers;
+    }
+
+    public void setBid(int i) {
     }
 
 }
