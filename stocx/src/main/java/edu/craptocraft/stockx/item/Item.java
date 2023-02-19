@@ -11,7 +11,11 @@ public interface Item {
     int getSale();
 
     void add(Offer bid);
+    
     List<Offer> offers();
 
     void setBid(int bid);
+
+    void setAsk(int ask);
+    
 }
