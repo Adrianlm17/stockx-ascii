@@ -16,5 +16,4 @@ public class Sales implements Criteria{
                         .filter(o -> o instanceof Sale)
                         .collect(Collectors.toList());
     }
-    
 }
