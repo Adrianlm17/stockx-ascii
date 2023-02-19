@@ -17,5 +17,7 @@ public interface Item {
     void setBid(int bid);
 
     void setAsk(int ask);
+
+    void setSale(int i);
     
 }
