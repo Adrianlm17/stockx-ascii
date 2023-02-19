@@ -31,7 +31,7 @@ public class AsksTest {
         assertTrue(filteredBids.stream().allMatch(a -> a instanceof Ask));
 
         sneaker.setAsk(asks.checkCriteria(sneaker).get(0).value());
-        assertEquals(333, sneaker.getAsk());
+        assertEquals(288, sneaker.getAsk());
     }
 
     @Test
